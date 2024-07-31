@@ -2,8 +2,8 @@
 require __DIR__ . '/vendor/autoload.php';
 use Twilio\Rest\Client;
 
-$sid = "ACbd08c96a34d53a2aca1dde3f1c81195e";
-$token = "188f30ad778e34bb0f1cbaa0cfcb0744";
+$sid = "";
+$token = "";
 
 $client = new Client($sid, $token);
 $number = $_POST['number'];
